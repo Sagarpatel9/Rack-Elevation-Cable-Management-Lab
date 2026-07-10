@@ -1,0 +1,172 @@
+<svg width="900" height="1180" viewBox="0 0 900 1180" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Rack-01 illustrated cutaway with cable runs</title>
+<desc>Illustrated 42U rack showing patch panels, switch, cable managers, and nine servers, with color-coded cable runs: amber for copper server links, teal dashed for the fiber uplink, and red for the direct DB replication jumper.</desc>
+
+<rect width="900" height="1180" fill="#ffffff"/>
+
+<!-- Rack outer frame -->
+<rect x="60" y="40" width="420" height="1080" rx="10" fill="#F4F3EF" stroke="#888780" stroke-width="2"/>
+<rect x="60" y="40" width="420" height="1080" rx="10" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+
+<!-- rail marks -->
+<rect x="66" y="46" width="10" height="1068" fill="#E3E1D8"/>
+<rect x="484" y="46" width="10" height="1068" fill="#E3E1D8"/>
+
+<!-- Cable trunk channel to the right of devices -->
+<rect x="500" y="46" width="60" height="1068" fill="#FAFAF7" stroke="#D3D1C7" stroke-width="1"/>
+<text x="530" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5F5E5A">cable trunk</text>
+
+<!-- ===================== DEVICE STACK ===================== -->
+<!-- Copper patch panel U42 -->
+<rect x="86" y="60" width="388" height="34" rx="4" fill="#FAC775" stroke="#854F0B" stroke-width="1"/>
+<text x="280" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#412402">R01-PP-Copper-A</text>
+
+<!-- Fiber patch panel U41 -->
+<rect x="86" y="98" width="388" height="34" rx="4" fill="#5DCAA5" stroke="#085041" stroke-width="1"/>
+<text x="280" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#04342C">R01-PP-Fiber-A</text>
+
+<!-- Cable manager U40 -->
+<rect x="86" y="136" width="388" height="20" rx="3" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<text x="280" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C2C2A">R01-CM-01</text>
+
+<!-- Switch U39 -->
+<rect x="86" y="160" width="388" height="34" rx="4" fill="#97C459" stroke="#27500A" stroke-width="1"/>
+<text x="280" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#173404">R01-SW01 (ToR switch)</text>
+
+<!-- Cable manager U38 -->
+<rect x="86" y="198" width="388" height="20" rx="3" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<text x="280" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C2C2A">R01-CM02</text>
+
+<!-- App servers 01/02 U37-34 -->
+<rect x="86" y="222" width="388" height="58" rx="4" fill="#CECBF6" stroke="#3C3489" stroke-width="1"/>
+<text x="280" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#26215C">R01-SRV-APP-01</text>
+<text x="280" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3C3489">App server, 2U</text>
+
+<rect x="86" y="284" width="388" height="58" rx="4" fill="#CECBF6" stroke="#3C3489" stroke-width="1"/>
+<text x="280" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#26215C">R01-SRV-APP-02</text>
+<text x="280" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3C3489">App server, 2U</text>
+
+<!-- Cable manager U33 -->
+<rect x="86" y="346" width="388" height="20" rx="3" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<text x="280" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C2C2A">R01-CM-03</text>
+
+<!-- DB servers U32-29 -->
+<rect x="86" y="370" width="388" height="58" rx="4" fill="#F5C4B3" stroke="#712B13" stroke-width="1"/>
+<text x="280" y="396" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4A1B0C">R01-SRV-DB-01</text>
+<text x="280" y="414" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#712B13">DB server, 2U</text>
+
+<rect x="86" y="432" width="388" height="58" rx="4" fill="#F5C4B3" stroke="#712B13" stroke-width="1"/>
+<text x="280" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4A1B0C">R01-SRV-DB-02</text>
+<text x="280" y="476" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#712B13">DB server, 2U</text>
+
+<!-- direct DB jumper drawn as a short loop between the two DB boxes -->
+<path d="M474 400 C 495 400, 495 460, 474 460" fill="none" stroke="#E24B4A" stroke-width="3" stroke-linecap="round"/>
+<circle cx="474" cy="400" r="3.5" fill="#E24B4A"/>
+<circle cx="474" cy="460" r="3.5" fill="#E24B4A"/>
+
+<!-- Cable manager U28 -->
+<rect x="86" y="494" width="388" height="20" rx="3" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<text x="280" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C2C2A">R01-CM-04</text>
+
+<!-- App servers 03/04 -->
+<rect x="86" y="518" width="388" height="58" rx="4" fill="#CECBF6" stroke="#3C3489" stroke-width="1"/>
+<text x="280" y="544" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#26215C">R01-SRV-APP-03</text>
+<text x="280" y="562" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3C3489">App server, 2U</text>
+
+<rect x="86" y="580" width="388" height="58" rx="4" fill="#CECBF6" stroke="#3C3489" stroke-width="1"/>
+<text x="280" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#26215C">R01-SRV-APP-04</text>
+<text x="280" y="624" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3C3489">App server, 2U</text>
+
+<!-- Cable manager U23 -->
+<rect x="86" y="642" width="388" height="20" rx="3" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<text x="280" y="656" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C2C2A">R01-CM-05</text>
+
+<!-- three 1U servers -->
+<rect x="86" y="666" width="388" height="30" rx="3" fill="#F4C0D1" stroke="#72243E" stroke-width="1"/>
+<text x="280" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4B1528">R01-SRV-05</text>
+
+<rect x="86" y="700" width="388" height="30" rx="3" fill="#F4C0D1" stroke="#72243E" stroke-width="1"/>
+<text x="280" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4B1528">R01-SRV-06</text>
+
+<rect x="86" y="734" width="388" height="30" rx="3" fill="#F4C0D1" stroke="#72243E" stroke-width="1"/>
+<text x="280" y="754" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4B1528">R01-SRV-07</text>
+
+<!-- reserved / blank space below -->
+<rect x="86" y="768" width="388" height="330" rx="4" fill="#FAFAF7" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="280" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#888780">reserved for growth (U19-U1)</text>
+
+<!-- ===================== CABLE RUNS (right trunk) ===================== -->
+<!-- vertical spine of the trunk -->
+<line x1="530" y1="77" x2="530" y2="750" stroke="#B4B2A9" stroke-width="2"/>
+
+<!-- copper cable runs (amber) from each server midpoint into the trunk, then straight up through every
+     cable-manager ring above it, to the switch -->
+<!-- helper: server midpoints -->
+<!-- APP-01 251 / APP-02 313 / DB-01 399 / DB-02 461 / APP-03 547 / APP-04 609 / SRV05 681 / SRV06 715 / SRV07 749 -->
+
+<path d="M474 251 L 530 251 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 313 L 530 313 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 399 L 530 399 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 461 L 530 461 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 547 L 530 547 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 609 L 530 609 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 681 L 530 681 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 715 L 530 715 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M474 749 L 530 749 L 530 177" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+
+<!-- switch to copper patch panel uplink -->
+<path d="M474 177 C 505 177, 505 77, 530 77" fill="none" stroke="#BA7517" stroke-width="3"/>
+
+<!-- switch to fiber patch panel uplink (teal dashed) -->
+<path d="M474 177 C 512 177, 512 115, 530 115" fill="none" stroke="#0F6E56" stroke-width="3" stroke-dasharray="8 5"/>
+
+<!-- ===================== CABLE MANAGER PASS-THROUGH RINGS ===================== -->
+<!-- Each ring sits directly on the trunk spine at the same height as its physical cable manager,
+     with a short dashed tie-line back to that device box, so it reads as "this is where those
+     cables are actually bundled and routed", not just decoration. Rings sit on top of the cable
+     lines so the lines visibly thread through them. -->
+
+<!-- CM-01 (U40) - carries every uplink -->
+<line x1="474" y1="146" x2="518" y2="146" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="530" cy="146" r="9" fill="#F4F3EF" stroke="#5F5E5A" stroke-width="2"/>
+
+<!-- CM02 (U38) - carries all 9 server runs -->
+<line x1="474" y1="208" x2="518" y2="208" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="530" cy="208" r="9" fill="#F4F3EF" stroke="#5F5E5A" stroke-width="2"/>
+
+<!-- CM-03 (U33) - carries 7 runs (everything below App-01/02) -->
+<line x1="474" y1="356" x2="518" y2="356" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="530" cy="356" r="9" fill="#F4F3EF" stroke="#5F5E5A" stroke-width="2"/>
+
+<!-- CM-04 (U28) - carries 5 runs (everything below App-03/04) -->
+<line x1="474" y1="504" x2="518" y2="504" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="530" cy="504" r="9" fill="#F4F3EF" stroke="#5F5E5A" stroke-width="2"/>
+
+<!-- CM-05 (U23) - carries the 3x 1U server runs -->
+<line x1="474" y1="652" x2="518" y2="652" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="530" cy="652" r="9" fill="#F4F3EF" stroke="#5F5E5A" stroke-width="2"/>
+
+<!-- ===================== LEGEND ===================== -->
+<rect x="620" y="60" width="250" height="200" rx="8" fill="#FAFAF7" stroke="#D3D1C7" stroke-width="1"/>
+<text x="638" y="86" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2C2C2A">Legend</text>
+
+<line x1="638" y1="106" x2="668" y2="106" stroke="#BA7517" stroke-width="3"/>
+<text x="676" y="110" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">Copper (Cat6a)</text>
+
+<line x1="638" y1="130" x2="668" y2="130" stroke="#0F6E56" stroke-width="3" stroke-dasharray="8 5"/>
+<text x="676" y="134" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">Fiber uplink (SMF)</text>
+
+<path d="M638 154 C 648 154, 648 162, 658 162" fill="none" stroke="#E24B4A" stroke-width="3"/>
+<text x="676" y="158" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">DB replication jumper</text>
+
+<rect x="638" y="176" width="20" height="14" rx="2" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<text x="676" y="188" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">Cable manager (device)</text>
+
+<circle cx="648" cy="212" r="8" fill="#F4F3EF" stroke="#5F5E5A" stroke-width="2"/>
+<text x="676" y="216" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">Cables threading through</text>
+<text x="676" y="230" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">that manager, en route up</text>
+
+<!-- footer -->
+<text x="280" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888780">Rack-01 - Home Lab DC - modeled and cabled in NetBox</text>
+
+</svg>
