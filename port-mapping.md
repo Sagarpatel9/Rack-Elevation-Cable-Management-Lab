@@ -1,9 +1,5 @@
 # Port mapping
 
-The same data as [`port-mapping.xlsx`](./port-mapping.xlsx), in markdown
-so it renders directly on GitHub without needing a download. The xlsx
-remains the source file; this is a browsable copy.
-
 ## Cable connections
 
 | Cable ID | Rack | A-Side Device | A-Side Port/Interface | B-Side Device | B-Side Port/Interface | Cable Type | Connection Purpose | Status |
