@@ -60,7 +60,7 @@ any port, see exactly what it connects to).
 ## Cabling
 
 All cabling was built as real, traceable connections in NetBox rather
-than described in prose. See [`port-mapping.xlsx`](./port-mapping.md)
+than described in prose. See [`port-mapping.md`](./port-mapping.md)
 for the full table, or the labeling convention in
 [`labeling-scheme.md`](./labeling-scheme.md).
 
